@@ -1,0 +1,7 @@
+docker run -it --privileged=true -v C:\Users\chanz\OneDrive\Desktop\airflow-dbt-bing\dbt:/usr/app/ -v C:\Users\chanz\OneDrive\Desktop\vol-airflow-dbt-bing\dbt-credential:/root/.dbt --name=mydbt13 xemuliam/dbt:1.3-snowflake /bin/bash
+
+
+curl 'https://airflow.apache.org/docs/apache-airflow/2.5.0/docker-compose.yaml' -o docker-compose.yaml
+
+curl 'https://airflow.apache.org/docs/apache-airflow/2.5.0/airflow.sh' -o airflow.sh
+chmod +x airflow.sh
